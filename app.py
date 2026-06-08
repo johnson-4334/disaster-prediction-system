@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("disaster_pipeline_v3.joblib")
+model = joblib.load("disaster_pipeline_v2.joblib")
 
 st.title("Disaster Prediction System")
 
